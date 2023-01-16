@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <title>Interactive credit card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="card-form">
+          <div class="card-list">
+            <div class="card-container">
+              <div class="card-container-side front"></div>
+              <div class="card-container-side back"></div>
+            </div>
+          </div>
+          <div class="card-input-form">
+            <div class="card-input">
+              <label for="" class="card-input-label">Card Number</label>
+              <input type="text" class="card-input-input" autocomplete="off" />
+            </div>
+            <div class="card-input">
+              <label for="" class="card-input-label">Card Holders</label>
+              <input type="text" class="card-input-input" autocomplete="off" />
+            </div>
+            <div class="card-input-row">
+              <div class="card-input-col">
+                <label for="">Expiration Date</label>
+                <div class="card-input-date">
+                  <select name="month" id="">
+                    <option value disabled="disabled " selected="selected">
+                      Month
+                    </option>
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+
+                  <select name="year" id="">
+                    <option value disabled="disabled " selected="selected">
+                      Year
+                    </option>
+                    <option value="1">2023</option>
+                    <option value="2">2024</option>
+                    <option value="3">2025</option>
+                    <option value="4">2026</option>
+                    <option value="5">2027</option>
+                    <option value="6">2028</option>
+                    <option value="7">2029</option>
+                    <option value="8">2030</option>
+                    <option value="9">2031</option>
+                    <option value="10">2032</option>
+                    <option value="11">2033</option>
+                    <option value="12">2034</option>
+                  </select>
+                </div>
+              </div>
+              <div class="card-input-cvv">
+                <label for="" class="card-input-label">CVV</label>
+                <input type="text" class="card-input-cvv" autocomplete="off" />
+              </div>
+            </div>
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
